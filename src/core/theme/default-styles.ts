@@ -15,7 +15,8 @@ export const DefaultStyles = createGlobalStyle`
 	}
 
 	body {
-		font-family: 'Roboto';
+		font-family: 'Roboto', sans-serif;
+		background-color: ${({ theme }) => theme.colors['white-400']};
 	}
 
 	a {
@@ -25,6 +26,7 @@ export const DefaultStyles = createGlobalStyle`
 
 	button {
 		cursor: pointer;
+		border: none;
 		background-color: transparent;
 	}
 `;

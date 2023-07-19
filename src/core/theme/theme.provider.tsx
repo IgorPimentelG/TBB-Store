@@ -17,6 +17,7 @@ export const ThemeProvider: React.FC<Props> = ({ children }) => {
 			'white-900': '#FFFFFF',
 			'white-800': '#F5F5F5',
 			'white-500': '#E2E1E0',
+			'white-400': '#D3D3D3',
 		},
 	};
 

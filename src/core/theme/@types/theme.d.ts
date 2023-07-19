@@ -9,6 +9,7 @@ declare module 'styled-components' {
 			'white-900': string;
 			'white-800': string;
 			'white-500': string;
+			'white-400': string;
 		},
 	};
 };
