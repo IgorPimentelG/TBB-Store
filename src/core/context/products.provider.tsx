@@ -18,8 +18,15 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 		setCategories(categories);
 	}, []);
 
+	useEffect(() => {
+		const favorites = { ...localStorage };
+		const favoritesIds = Object.keys(favorites);
+		setFavorites(favoritesIds);
+	}, []);
+
 	const [products, setProducts] = useState<Product[]>([]);
 	const [categories, setCategories] = useState<Category[]>([]);
+	const [favorites, setFavorites] = useState<string[]>([]);
 
 	/**
 	 * @param products
@@ -45,10 +52,25 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 		return categories;
 	}
 
+	function addFavorite(id: string) {
+		localStorage.setItem(id, id);
+		setFavorites((oldState) => [...oldState, id]);
+	}
+
+	function removeFavorite(id: string) {
+		localStorage.removeItem(id);
+		setFavorites((oldState) => oldState.filter(
+			(productId) => productId != id
+		));
+	}
+
 	return (
 		<ProductsContext.Provider value={{
 			products,
 			categories,
+			favorites,
+			addFavorite,
+			removeFavorite,
 		}}>
 			{children}
 		</ProductsContext.Provider>

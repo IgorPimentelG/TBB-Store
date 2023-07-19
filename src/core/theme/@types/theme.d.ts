@@ -10,6 +10,7 @@ declare module 'styled-components' {
 			'white-800': string;
 			'white-500': string;
 			'white-400': string;
+			'white-200': string;
 		},
 	};
 };
