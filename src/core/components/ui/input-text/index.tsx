@@ -5,7 +5,7 @@ type Props = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputE
 	icon?: ReactNode;
 };
 
-export const Input: React.FC<Props> = ({ icon, ...rest }) => {
+export const InputText: React.FC<Props> = ({ icon, ...rest }) => {
 	return (
 		<Wrapper>
 			{icon}
