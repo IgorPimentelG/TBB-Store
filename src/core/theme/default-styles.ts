@@ -11,12 +11,11 @@ export const DefaultStyles = createGlobalStyle`
 	html,
 	body {
 		min-height: 100vh;
-		min-width: 100vw;
 	}
 
 	body {
 		font-family: 'Roboto', sans-serif;
-		background-color: ${({ theme }) => theme.colors['white-400']};
+		background-color: ${({ theme }) => theme.colors['white-200']};
 	}
 
 	a {

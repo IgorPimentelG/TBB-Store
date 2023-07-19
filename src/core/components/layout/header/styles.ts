@@ -6,6 +6,12 @@ export const Wrapper = styled.header`
 	grid-template-areas: "nav logo actions";
 	grid-template-columns: repeat(3, 1fr);
 
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+
 	height: 80px;
 	padding: 0 52px;
 	background-color: ${({ theme }) => theme.colors['black-800']};
@@ -49,7 +55,7 @@ export const Menu = styled.nav`
 		&::before {
 			position: absolute;
 			bottom: -12px;
-			left: 40%;
+			left: 48%;
 
 			content: "";
 			width: 8px;

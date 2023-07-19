@@ -1,4 +1,4 @@
-import { Input, LanguageSelector } from '@core/components/ui';
+import { InputText, LanguageSelector } from '@core/components/ui';
 import { BsSearch } from 'react-icons/bs';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Actions, Logo, Menu, Wrapper } from './styles';
@@ -15,13 +15,13 @@ export const Header = () => {
 	return (
 		<Wrapper>
 			<Menu>
-				<button onClick={() => navigate('products')}>
+				<button onClick={() => navigate('/products')}>
 					<span data-active={isActive('products')}>
 						Produtos
 					</span>
 				</button>
 				<hr/>
-				<button onClick={() => navigate('favorites')}>
+				<button onClick={() => navigate('/favorites')}>
 					<span data-active={isActive('favorites')}>
 						Favoritos
 					</span>
@@ -29,11 +29,11 @@ export const Header = () => {
 			</Menu>
 
 			<Logo>
-				<h1>TBB</h1>
+				<h1>TBB Store</h1>
 			</Logo>
 
 			<Actions>
-				<Input
+				<InputText
 					placeholder='Buscar produto'
 					icon={<BsSearch />}
 				/>
