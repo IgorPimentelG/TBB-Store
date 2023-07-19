@@ -13,6 +13,17 @@ export const Wrapper = styled.div`
 	border-radius: 10px;
 	background-color: ${({ theme }) => theme.colors['white-900']};
 
+	& > div {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		transition: all 300ms ease-in;
+
+		& > button:hover {
+			transform: scale(1.07);
+		}
+	}
+
 	${({ theme }) => `
 		border: 1px solid ${theme.colors['white-400']};
 		background-color: ${theme.colors['white-900']};

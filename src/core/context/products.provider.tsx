@@ -10,13 +10,19 @@ type Props = {
 
 export const ProductsProvider: React.FC<Props> = ({ children }) => {
 
-	useEffect(() => {
-		const products = DB_PRODUCTS.data.nodes as Product[];
-		setProducts(products);
+	const [products, setProducts] = useState<Product[]>([]);
+	const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
+	const [categories, setCategories] = useState<Category[]>([]);
+	const [favorites, setFavorites] = useState<string[]>([]);
 
-		const categories = formatCategories(products);
-		setCategories(categories);
+	useEffect(() => {
+		getAllProducts();
 	}, []);
+
+	useEffect(() => {
+		const categories = formatCategories();
+		setCategories(categories);
+	}, [products]);
 
 	useEffect(() => {
 		const favorites = { ...localStorage };
@@ -24,15 +30,39 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 		setFavorites(favoritesIds);
 	}, []);
 
-	const [products, setProducts] = useState<Product[]>([]);
-	const [categories, setCategories] = useState<Category[]>([]);
-	const [favorites, setFavorites] = useState<string[]>([]);
+	function getAllProducts() {
+		const products = DB_PRODUCTS.data.nodes as Product[];
+		setProducts(products);
+	}
+
+	function filterProductsByCategory(
+		categoryId: string,
+		alreadyActive: boolean,
+	) {
+		if (alreadyActive) {
+			setFilteredProducts((oldState) => oldState.filter(
+				({ category }) => category._id !== categoryId
+			));
+		} else {
+			const productsByCategory = products.filter(
+				({ category }) => category._id === categoryId
+			);
+			setFilteredProducts((oldState) => [
+				...oldState,
+				...productsByCategory
+			]);
+		}
+	}
+
+	function cleanFilter() {
+		setFilteredProducts([]);
+	}
 
 	/**
 	 * @param products
 	 * @returns the categories without diplication and the calucation of the total of items
 	 */
-	function formatCategories(products: Product[]): Category[] {
+	function formatCategories(): Category[] {
 		const categories: Category[] = [];
 
 		products.forEach((product) => {
@@ -69,8 +99,11 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 			products,
 			categories,
 			favorites,
+			filteredProducts,
 			addFavorite,
 			removeFavorite,
+			cleanFilter,
+			filterProductsByCategory,
 		}}>
 			{children}
 		</ProductsContext.Provider>

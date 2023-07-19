@@ -5,6 +5,9 @@ export const ProductsContext = createContext<IProducts>({
 	products: [],
 	categories: [],
 	favorites: [],
+	filteredProducts: [],
 	addFavorite: () => {},
 	removeFavorite: () => {},
+	cleanFilter: () => {},
+	filterProductsByCategory: () => {},
 });

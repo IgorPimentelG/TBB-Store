@@ -8,7 +8,7 @@ import { List, Wrapper } from './styles';
 
 export const Products = () => {
 
-	const { products } = useContext(ProductsContext);
+	const { products, filteredProducts } = useContext(ProductsContext);
 
 	return (
 		<Container>
@@ -20,12 +20,25 @@ export const Products = () => {
 					/>
 				) : (
 					<List>
-						{products.map((product) => (
-							<CardProduct
-								key={product.id}
-								product={product}
-							/>
-						))}
+						{filteredProducts.length !== 0 ? (
+							<>
+								{filteredProducts.map((product) => (
+									<CardProduct
+										key={product.id}
+										product={product}
+									/>
+								))}
+							</>
+						) : (
+							<>
+								{products.map((product) => (
+									<CardProduct
+										key={product.id}
+										product={product}
+									/>
+								))}
+							</>
+						)}
 					</List>
 				)}
 			</Wrapper>

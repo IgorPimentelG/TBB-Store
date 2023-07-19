@@ -9,7 +9,7 @@ type Props = {
 
 export const Container: React.FC<Props> = ({ children }) => {
 
-	const { categories, products } = useContext(ProductsContext);
+	const { categories, products, filteredProducts } = useContext(ProductsContext);
 	const hasCategories = categories.length !== 0;
 	const hasProducts = products.length !== 0;
 
@@ -20,7 +20,7 @@ export const Container: React.FC<Props> = ({ children }) => {
 					<div>
 						<div>
 							{hasProducts && (
-								<h1>{products.length} Resultados</h1>
+								<h1>{filteredProducts.length || products.length} Resultados</h1>
 							)}
 						</div>
 						<div>
