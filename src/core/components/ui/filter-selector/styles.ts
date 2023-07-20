@@ -52,7 +52,7 @@ export const Select = styled.section<SelectProps>`
 		}
 
 		&[data-show="true"] {
-			height: calc(${({ length }) => length} * 48%);
+			height: calc(${({ length }) => length} * 52%);
 
 			${({ theme }) => `
 				border: 1px solid ${theme.colors['white-400']};
@@ -62,6 +62,11 @@ export const Select = styled.section<SelectProps>`
 
 		@media (max-width: 645px) {
 			right: -90px;
+
+
+			&[data-show="true"] {
+				height: calc(${({ length }) => length} * 63%);
+			}
 		}
 `;
 

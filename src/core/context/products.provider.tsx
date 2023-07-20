@@ -1,7 +1,12 @@
-import { DB_PRODUCTS } from '@core/data';
+import {
+	DB_PRODUCTS_EN,
+	DB_PRODUCTS_ES,
+	DB_PRODUCTS_PT,
+} from '@core/data';
 import { Category } from '@core/model/category';
 import { Product } from '@core/model/product';
 import { ReactNode, useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { FilterType } from './@types/filter-type';
 import { ProductsContext } from './products.context';
 
@@ -16,9 +21,12 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 	const [favorites, setFavorites] = useState<Product[]>([]);
 	const [filterType, setFilterType] = useState<FilterType>('NONE');
 
+	const { i18n } = useTranslation();
+	const { language } = i18n;
+
 	useEffect(() => {
 		getAllProducts();
-	}, []);
+	}, [language]);
 
 	useEffect(() => {
 		if (products.length !== 0) {
@@ -36,7 +44,15 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 	}
 
 	function getAllProducts() {
-		const products = DB_PRODUCTS.data.nodes as Product[];
+		let products: Product[] = [];
+
+	 	if (language === 'es') {
+			products = DB_PRODUCTS_ES.data.nodes as Product[];
+		} else if (language === 'en-US') {
+			products = DB_PRODUCTS_EN.data.nodes as Product[];
+		} else {
+			products = DB_PRODUCTS_PT.data.nodes as Product[];
+		}
 		setProducts(products);
 	}
 
@@ -59,11 +75,12 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 			products : favorites;
 
 		if (alreadyActive) {
-			setFilteredProducts((oldState) => oldState.filter(
+			const items = filteredProducts.filter(
 				({ category }) => category._id !== categoryId
-			));
+			);
+			setFilteredProducts(items);
 
-			if (filteredProducts.length <= 1) {
+			if (items.length <= 1) {
 				setFilterType('NONE');
 			}
 		} else {

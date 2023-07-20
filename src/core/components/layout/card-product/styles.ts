@@ -58,6 +58,7 @@ export const Wrapper = styled.div`
 		p {
 			font-size: 14px;
 			color: #979797;
+			line-height: 18px;
 		}
 	}
 `;
