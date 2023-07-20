@@ -1,6 +1,7 @@
 import { InputCheckbox } from '@core/components/ui';
 import { ProductsContext } from '@core/context/products.context';
 import { ChangeEvent, useContext, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { AiOutlineClear } from 'react-icons/ai';
 import { Title, Wrapper } from './styles';
 
@@ -13,6 +14,8 @@ export const Filter = () => {
 		clearFilter,
 		filterProductsByCategory,
 	} = useContext(ProductsContext);
+
+	const { t }  = useTranslation();
 
 	useEffect(() => {
 		if (filterType === 'BY_NAME') {
@@ -43,7 +46,7 @@ export const Filter = () => {
 	return (
 		<Wrapper>
 			<div>
-				<Title>Filtros</Title>
+				<Title>{t('titles.filters')}</Title>
 				{filteredProducts.length !== 0 && filterType === 'BY_CATEGORY' && (
 					<button onClick={handleClearFilter}>
 						<AiOutlineClear size={28} />

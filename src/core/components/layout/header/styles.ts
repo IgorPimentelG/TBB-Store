@@ -55,7 +55,7 @@ export const Menu = styled.nav`
 		&::before {
 			position: absolute;
 			bottom: -12px;
-			left: 48%;
+			left: 45%;
 
 			content: "";
 			width: 8px;

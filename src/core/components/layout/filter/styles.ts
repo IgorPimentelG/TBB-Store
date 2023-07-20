@@ -45,5 +45,4 @@ export const Wrapper = styled.div`
 export const Title = styled.h3`
 	font-size: 24px;
 	color: ${({ theme }) => theme.colors['black-800']};
-
 `;

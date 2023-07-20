@@ -1,18 +1,37 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { BsGlobe } from 'react-icons/bs';
 import { Button, Select, Wrapper } from './styles';
 
-type Props = {
-	languages: string[];
-}
 
-export const LanguageSelector: React.FC<Props> = ({
-	languages,
-}) => {
+const LANGUAGES = [
+	{
+		key: 'pt-BR',
+		acronym: 'PT',
+	},
+	{
+		key: 'en-US',
+		acronym: 'EN',
+	},
+	{
+		key: 'es',
+		acronym: 'ES',
+	},
+];
 
+export const LanguageSelector = () => {
+
+	const { i18n } = useTranslation();
 	const [selectIsOpen, setSelectIsOpen] = useState(false);
+	const [currentLanguage, setCurrentLanguage] = useState('PT');
 
-	function changeLanguage() {
+	useEffect(() => {
+		const language = LANGUAGES.find(lng => lng.key === i18n.language);
+		setCurrentLanguage(language?.acronym || 'PT');
+	}, [i18n.language]);
+
+	function changeLanguage(language: string) {
+		i18n.changeLanguage(language)
 		setSelectIsOpen(false);
 	}
 
@@ -20,19 +39,19 @@ export const LanguageSelector: React.FC<Props> = ({
 		<Wrapper>
 			<Button onClick={() => setSelectIsOpen(!selectIsOpen)}>
 				<BsGlobe />
-				<span>PT</span>
+				<span>{currentLanguage}</span>
 			</Button>
 
 			<Select
 				data-show={selectIsOpen}
-				length={languages.length}
+				length={LANGUAGES.length}
 			>
-				{languages.map(language => (
+				{LANGUAGES.map(language => (
 					<button
-						key={language}
-						onClick={changeLanguage}
+						key={language.key}
+						onClick={() => changeLanguage(language.key)}
 					>
-						<span>{language}</span>
+						<span>{language.acronym}</span>
 					</button>
 				))}
 			</Select>

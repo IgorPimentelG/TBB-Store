@@ -8,7 +8,6 @@ export const Wrapper = styled.div`
 export const Label = styled.label`
 	font-size: 16px;
 	cursor: pointer;
-	font-family: "Roboto Mono", monospace;
 	letter-spacing: 1px;
 	color: ${({ theme }) => theme.colors['black-800']};
 `;
