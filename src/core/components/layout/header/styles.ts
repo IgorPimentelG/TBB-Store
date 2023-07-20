@@ -22,14 +22,21 @@ export const Wrapper = styled.header`
 		background-color: ${theme.colors['black-800']};
 	`}
 
-	@media (max-width: 900px) {
+	@media (max-width: 1080px) {
 		height: auto;
-		padding: 24px 52px;
+		padding: 24px 32px;
 		grid-template-areas:
-			"logo logo logo"
-			"nav nav nav"
-			"actions actions actions";
+			"logo nav"
+			"actions actions";
+		grid-template-columns: auto;
 		gap: 24px;
+	}
+
+	@media (max-width: 500px) {
+		grid-template-areas:
+			"logo"
+			"nav"
+			"actions";
 	}
 `;
 
@@ -65,7 +72,12 @@ export const Menu = styled.nav`
 		}
 	}
 
-	@media (max-width: 900px) {
+	@media (max-width: 1080px) {
+		justify-content: flex-end;
+		margin-bottom: 8px;
+	}
+
+	@media (max-width: 500px) {
 		justify-content: center;
 	}
 `;
@@ -80,9 +92,15 @@ export const Logo = styled.div`
 		font-family: 'Tektur';
 	}
 
-	@media (max-width: 900px) {
+	@media (max-width: 1080px) {
 		h1 {
 			margin-left: 0;
+			text-align: start;
+		}
+	}
+
+	@media (max-width: 500px) {
+		h1 {
 			text-align: center;
 		}
 	}
@@ -95,12 +113,12 @@ export const Actions = styled.div`
 	justify-content: flex-end;
 	gap: 16px;
 
-	@media (max-width: 900px) {
-		justify-content: center;
+	@media (max-width: 1080px) {
+		justify-content: space-between;
 	}
 
-	@media (max-width: 372px) {
-		flex-direction: column-reverse;
+	@media (max-width: 500px) {
+		flex-direction: column;
 		align-items: center;
 	}
 `;

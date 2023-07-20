@@ -3,8 +3,8 @@ import { ProductsContext } from '@core/context/products.context';
 import { ChangeEvent, useContext, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { AiOutlineClear } from 'react-icons/ai';
-import { Title, Wrapper } from './styles';
 import { useLocation } from 'react-router-dom';
+import { Title, Wrapper } from './styles';
 
 export const Filter = () => {
 
@@ -59,7 +59,7 @@ export const Filter = () => {
 			<section>
 				{categories.map((category) => (
 					<InputCheckbox
-						key={category._id}
+						key={`${category._id}-${pathname}`}
 						label={`${category.name} (${category.total})`}
 						value={category._id}
 						onChange={(event) => applyFilter(event, category._id)}

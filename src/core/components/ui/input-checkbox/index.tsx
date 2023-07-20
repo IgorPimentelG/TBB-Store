@@ -9,8 +9,8 @@ type Props = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputE
 export const InputCheckbox: React.FC<Props> = ({ label, value, ...rest }) => {
 	return (
 		<Wrapper>
-			<input type='checkbox' id={label} value={value} {...rest} />
-			<Label htmlFor={label}>
+			<input type='checkbox' value={value} {...rest} />
+			<Label>
 				{label}
 			</Label>
 		</Wrapper>

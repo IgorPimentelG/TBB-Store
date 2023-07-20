@@ -22,9 +22,19 @@ export const Content = styled.div`
 		position: sticky;
 		top: 0;
 
-		h1 {
-			font-size: 38px;
-			margin-bottom: 16px;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+
+		@media (max-width: 1350px) {
+			position: relative;
+		}
+
+		@media (max-width: 645px) {
+			flex-direction: column-reverse;
+			align-items: center;
+			gap: 12px;
+			width: 100%;
 		}
 	}
 
@@ -33,4 +43,23 @@ export const Content = styled.div`
 		position: relative;
 		gap: 48px;
 	}
+
+	@media (max-width: 1080px) {
+		margin-top: calc(160px - 80px);
+	}
+
+	@media (max-width: 500px) {
+		margin-top: calc(260px - 80px);
+	}
+`;
+
+export const Results = styled.div`
+		h1 {
+			font-size: 38px;
+			margin-bottom: 16px;
+
+			@media (max-width: 376px) {
+				font-size: 28px;
+			}
+		}
 `;

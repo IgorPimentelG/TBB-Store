@@ -15,5 +15,23 @@ export const List = styled.section`
 	grid-template-columns: repeat(3, 300px);
 	gap: 24px;
 
-	padding-right: 8px;
+	@media (min-width: 2000px) {
+		grid-template-columns: repeat(5, 300px);
+	}
+
+	@media (max-width: 1080px) {
+		grid-template-columns: repeat(3, 250px);
+	}
+
+	@media (max-width: 940px) {
+		grid-template-columns: repeat(2, 250px);
+	}
+
+	@media (max-width: 645px) {
+		grid-template-columns: 300px;
+	}
+
+	@media (max-width: 422px) {
+		grid-template-columns: 250px;
+	}
 `;

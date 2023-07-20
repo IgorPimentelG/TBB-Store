@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	position: sticky;
-	top: 8%;
+	top: 60px;
 
 	width: 280px;
 	height: fit-content;
@@ -39,6 +39,10 @@ export const Wrapper = styled.div`
 		display: flex;
 		flex-direction: column;
 		gap: 8px;
+	}
+
+	@media (max-width: 1350px) {
+		display: none;
 	}
 `;
 

@@ -4,7 +4,7 @@ type SelectProps = {
 	length: number;
 }
 
-export const Wrapper = styled.button`
+export const Wrapper = styled.div`
 	display: flex;
 	position: relative;
 `;
@@ -12,17 +12,19 @@ export const Wrapper = styled.button`
 export const Button = styled.button`
 	display: flex;
 	gap: 12px;
+
 	padding: 0 16px;
 	align-items: center;
 	height: 40px;
 	border-radius: 100px;
-
 	font-size: 14px;
 
 	${({ theme }) => `
 		color: ${theme.colors['white-400']};
 		background-color: ${theme.colors['black-500']};
 	`};
+
+
 `;
 
 export const Select = styled.div<SelectProps>`
@@ -35,7 +37,6 @@ export const Select = styled.div<SelectProps>`
 
 	border-radius: 8px;
 	gap: 8px;
-
 	overflow: overlay;
 	height: 0;
 	max-width: 400px;
