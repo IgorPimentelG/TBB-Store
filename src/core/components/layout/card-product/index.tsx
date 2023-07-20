@@ -22,7 +22,7 @@ export const CardProduct: React.FC<Props> = ({ product }) => {
 	}
 
 	function isFavorite(): boolean {
-		return favorites.includes(id);
+		return favorites.some((product) => product.id == id);
 	}
 
 	return (
