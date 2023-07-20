@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import { BsGlobe } from 'react-icons/bs';
 import { Button, Select, Wrapper } from './styles';
 
-
 const LANGUAGES = [
 	{
 		key: 'pt-BR',

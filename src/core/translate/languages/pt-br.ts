@@ -1,4 +1,3 @@
-import { UnexpectedError } from '@pages';
 export default {
 	translations: {
 		menu: {
