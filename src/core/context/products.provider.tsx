@@ -62,6 +62,10 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 			setFilteredProducts((oldState) => oldState.filter(
 				({ category }) => category._id !== categoryId
 			));
+
+			if (filteredProducts.length <= 1) {
+				setFilterType('NONE');
+			}
 		} else {
 			const filteredProducts = items.filter(
 				({ category }) => category._id === categoryId
