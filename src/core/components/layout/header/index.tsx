@@ -8,16 +8,16 @@ import { Actions, Logo, Menu, Wrapper } from './styles';
 
 export const Header = () => {
 
-	const location = useLocation();
+	const { pathname } = useLocation();
 	const navigate = useNavigate();
 	const { t }  = useTranslation();
 
-	const { filterByName, clearFilter, filterType } = useContext(ProductsContext);
+	const { filterProductsByName, clearFilter, filterType } = useContext(ProductsContext);
 	const [filterProduct, setFilterProduct] = useState('');
 
 	useEffect(() => {
 		if (filterProduct.length > 0) {
-			filterByName(filterProduct);
+			filterProductsByName(filterProduct, pathname);
 		} else if (filterType !== 'NONE') {
 			clearFilter();
 		}
@@ -30,7 +30,7 @@ export const Header = () => {
 	}, [filterType]);
 
 	function isActive(path: string): boolean {
-		return location.pathname.includes(path);
+		return pathname.includes(path);
 	}
 
 	return (

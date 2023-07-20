@@ -10,7 +10,6 @@ type Props = {
 };
 
 export const ProductsProvider: React.FC<Props> = ({ children }) => {
-
 	const [products, setProducts] = useState<Product[]>([]);
 	const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
 	const [categories, setCategories] = useState<Category[]>([]);
@@ -22,13 +21,10 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 	}, []);
 
 	useEffect(() => {
-		const categories = formatCategories();
-		setCategories(categories);
+		if (products.length !== 0) {
+			getAllFavorites();
+		}
 	}, [products]);
-
-	useEffect(() => {
-		getAllFavorites();
-	}, []);
 
 	function getAllFavorites() {
 		const favorites = { ...localStorage };
@@ -41,37 +37,53 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 
 	function getAllProducts() {
 		const products = DB_PRODUCTS.data.nodes as Product[];
-		console.log("🚀 ~ file: products.provider.tsx:44 ~ getAllProducts ~ products:", products)
 		setProducts(products);
+	}
+
+	function getAllCategories(pathname: string) {
+		setCategories(
+			pathname.includes('products') ?
+				formatCategories(products) :
+				formatCategories(favorites)
+		);
 	}
 
 	function filterProductsByCategory(
 		categoryId: string,
 		alreadyActive: boolean,
+		pathname: string,
 	) {
 		setFilterType('BY_CATEGORY');
+
+		const items = pathname.includes('products') ?
+			products : favorites;
 
 		if (alreadyActive) {
 			setFilteredProducts((oldState) => oldState.filter(
 				({ category }) => category._id !== categoryId
 			));
 		} else {
-			const productsByCategory = products.filter(
+			const filteredProducts = items.filter(
 				({ category }) => category._id === categoryId
 			);
 			setFilteredProducts((oldState) => [
 				...oldState,
-				...productsByCategory
+				...filteredProducts
 			]);
 		}
 	}
 
-	function filterByName(name: string) {
+	function filterProductsByName(name: string, pathname: string) {
 		setFilterType('BY_NAME');
-		const productsByName = products.filter(
+
+		const items = pathname.includes('products') ?
+			products : favorites;
+
+		const productsByName = items.filter(
 			(product) => product.name.toLowerCase()
 				.includes(name.toLowerCase())
 		);
+
 		setFilteredProducts(productsByName);
 	}
 
@@ -81,10 +93,10 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 	}
 
 	/**
-	 * @param products
+	 * @param products the list of products
 	 * @returns the categories without diplication and the calucation of the total of items
 	 */
-	function formatCategories(): Category[] {
+	function formatCategories(products: Product[]): Category[] {
 		const categories: Category[] = [];
 
 		products.forEach((product) => {
@@ -129,8 +141,9 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 			filterType,
 			addFavorite,
 			removeFavorite,
-			filterByName,
+			filterProductsByName,
 			clearFilter,
+			getAllCategories,
 			filterProductsByCategory,
 		}}>
 			{children}

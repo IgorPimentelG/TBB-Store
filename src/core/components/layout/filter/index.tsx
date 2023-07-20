@@ -4,6 +4,7 @@ import { ChangeEvent, useContext, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { AiOutlineClear } from 'react-icons/ai';
 import { Title, Wrapper } from './styles';
+import { useLocation } from 'react-router-dom';
 
 export const Filter = () => {
 
@@ -15,6 +16,7 @@ export const Filter = () => {
 		filterProductsByCategory,
 	} = useContext(ProductsContext);
 
+	const { pathname } = useLocation();
 	const { t }  = useTranslation();
 
 	useEffect(() => {
@@ -25,7 +27,7 @@ export const Filter = () => {
 
 	function applyFilter(event: ChangeEvent<HTMLInputElement>, categoryId: string) {
 		const checked = event.target.checked;
-		filterProductsByCategory(categoryId, !checked);
+		filterProductsByCategory(categoryId, !checked, pathname);
 	}
 
 	function handleClearFilter() {

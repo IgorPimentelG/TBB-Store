@@ -19,13 +19,16 @@ export const Container: React.FC<Props> = ({ children }) => {
 		filterType,
 	} = useContext(ProductsContext);
 
-	const location = useLocation();
+	const { pathname } = useLocation();
 	const { t }  = useTranslation();
 
 	const hasCategories = categories.length !== 0;
 	const hasProducts = products.length !== 0;
+	const hasFavorite = favorites.length !== 0;
 
-	const totalOfItems = location.pathname.includes('products') ?
+	const showTotal = pathname.includes('products') ? hasProducts : hasFavorite ;
+
+	const totalOfItems = pathname.includes('products') ?
 		products.length : favorites.length;
 
 	return (
@@ -34,9 +37,10 @@ export const Container: React.FC<Props> = ({ children }) => {
 				<Content>
 					<div>
 						<div>
-							{hasProducts && (
+							{showTotal && (
 								<h1>
-									{filterType !== 'NONE' ? filteredProducts.length : totalOfItems} {t('titles.results')}
+									{filterType !== 'NONE' ?
+										filteredProducts.length : totalOfItems} {t('titles.results')}
 								</h1>
 							)}
 						</div>

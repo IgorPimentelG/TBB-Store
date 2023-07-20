@@ -11,9 +11,11 @@ export interface IProducts {
 	addFavorite: (id: string) => void;
 	removeFavorite: (id: string) => void;
 	clearFilter: () => void;
-	filterByName: (name: string) => void;
+	filterProductsByName: (name: string, pathname: string) => void;
+	getAllCategories: (pathname: string) => void;
 	filterProductsByCategory(
 		categoryId: string,
-		alreadyActive: boolean
+		alreadyActive: boolean,
+		pathname: string,
 	): void;
 };
