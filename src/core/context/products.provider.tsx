@@ -5,7 +5,7 @@ import {
 } from '@core/data';
 import { Category } from '@core/model/category';
 import { Product } from '@core/model/product';
-import { ReactNode, useEffect, useState } from 'react';
+import { ReactNode, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { FilterType } from './@types/filter-type';
 import { ProductsContext } from './products.context';
@@ -20,6 +20,10 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 	const [categories, setCategories] = useState<Category[]>([]);
 	const [favorites, setFavorites] = useState<Product[]>([]);
 	const [filterType, setFilterType] = useState<FilterType>('NONE');
+
+	const memorizedProducts = useMemo(() => products, [products]);
+	const memorizedCategories = useMemo(() => categories, [categories]);
+	const memorizedFavorites = useMemo(() => favorites, [favorites]);
 
 	const { i18n } = useTranslation();
 	const { language } = i18n;
@@ -155,9 +159,9 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 
 	return (
 		<ProductsContext.Provider value={{
-			products,
-			categories,
-			favorites,
+			products: memorizedProducts,
+			categories: memorizedCategories,
+			favorites: memorizedFavorites,
 			filteredProducts,
 			filterType,
 			addFavorite,

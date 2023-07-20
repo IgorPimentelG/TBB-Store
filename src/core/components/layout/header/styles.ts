@@ -11,7 +11,6 @@ export const Wrapper = styled.header`
 	left: 0;
 	right: 0;
 	z-index: 999;
-
 	height: 80px;
 	padding: 0 52px;
 	background-color: ${({ theme }) => theme.colors['black-800']};
