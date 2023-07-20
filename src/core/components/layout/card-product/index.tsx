@@ -30,7 +30,7 @@ export const CardProduct: React.FC<Props> = ({ product }) => {
 			<section>
 				<button onClick={handleFavorite}>
 					{isFavorite() ? (
-						<BsFillHeartFill color={"#C42B2B"} size={20} />
+						<BsFillHeartFill color={'#C42B2B'} size={20} />
 					) : (
 						<BsHeart size={20} />
 					)}

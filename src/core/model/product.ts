@@ -18,4 +18,4 @@ export type Product = {
 export interface IProducts {
 	products: Product[];
 	categories: Category[];
-};
+}

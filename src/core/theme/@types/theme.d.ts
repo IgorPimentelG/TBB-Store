@@ -12,5 +12,5 @@ declare module 'styled-components' {
 			'white-400': string;
 			'white-200': string;
 		},
-	};
-};
+	}
+}

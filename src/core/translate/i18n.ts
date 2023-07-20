@@ -14,4 +14,5 @@ i18n
 	.use(initReactI18next)
 	.init(i18nConfig);
 
-	export { i18n };
+export { i18n };
+

@@ -18,4 +18,4 @@ export interface IProducts {
 		alreadyActive: boolean,
 		pathname: string,
 	): void;
-};
+}

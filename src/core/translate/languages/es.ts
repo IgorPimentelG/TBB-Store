@@ -14,4 +14,4 @@ export default {
 			productsNotFound: 'No se encontraron productos',
 		},
 	},
-}
+};

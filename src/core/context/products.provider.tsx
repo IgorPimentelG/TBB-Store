@@ -170,4 +170,4 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 			{children}
 		</ProductsContext.Provider>
 	);
-}
+};

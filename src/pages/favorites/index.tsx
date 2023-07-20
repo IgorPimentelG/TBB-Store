@@ -25,7 +25,7 @@ export const Favorites = () => {
 		<Container>
 			<Wrapper>
 			{favorites.length === 0 ||
-			  (filterType === "BY_NAME" && filteredProducts.length === 0) ? (
+			  (filterType === 'BY_NAME' && filteredProducts.length === 0) ? (
 						<WarningText
 							message={t('warnings.favoritesNotFound')}
 							icon={<BsSearch size={28} />}

@@ -31,7 +31,7 @@ export const LanguageSelector = () => {
 	}, [i18n.language]);
 
 	function changeLanguage(language: string) {
-		i18n.changeLanguage(language)
+		i18n.changeLanguage(language);
 		setSelectIsOpen(false);
 	}
 
