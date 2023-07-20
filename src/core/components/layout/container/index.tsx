@@ -58,7 +58,7 @@ export const Container: React.FC<Props> = ({ children }) => {
 									</h1>
 								)}
 							</Results>
-							<FilterSelector />
+							{hasCategories && <FilterSelector />}
 						</div>
 
 						<div>
