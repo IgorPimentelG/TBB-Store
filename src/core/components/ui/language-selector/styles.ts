@@ -23,8 +23,6 @@ export const Button = styled.button`
 		color: ${theme.colors['white-400']};
 		background-color: ${theme.colors['black-500']};
 	`};
-
-
 `;
 
 export const Select = styled.div<SelectProps>`
@@ -37,9 +35,10 @@ export const Select = styled.div<SelectProps>`
 
 	border-radius: 8px;
 	gap: 8px;
-	overflow: overlay;
+	overflow: hidden;
 	height: 0;
 	max-width: 400px;
+	transition: height 300ms ease-in;
 
 	&[data-show="true"] {
 		height: calc(${({ length }) => length} * 90%);

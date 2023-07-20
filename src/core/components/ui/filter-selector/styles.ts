@@ -5,10 +5,10 @@ type SelectProps = {
 }
 
 export const Wrapper = styled.div`
-		display: none;
-		flex-direction: column;
-		position: relative;
-		z-index: 800;
+	display: none;
+	flex-direction: column;
+	position: relative;
+	z-index: 800;
 
 	& > button {
 		display: flex;
@@ -43,26 +43,24 @@ export const Select = styled.section<SelectProps>`
 		border-radius: 10px;
 		gap: 12px;
 		height: 0;
+		transition: height 300ms ease-in;
+		background-color: ${({ theme }) => theme.colors['white-900']};
 
 		& > div {
 			display: flex;
 			flex-direction: column;
 			gap: 8px;
 			margin: 12px;
+			overflow: hidden;
 		}
 
 		&[data-show="true"] {
 			height: calc(${({ length }) => length} * 52%);
-
-			${({ theme }) => `
-				border: 1px solid ${theme.colors['white-400']};
-				background-color: ${theme.colors['white-900']};
-			`};
+			border: 1px solid ${({ theme }) => theme.colors['white-400']};
 		}
 
 		@media (max-width: 645px) {
 			right: -90px;
-
 
 			&[data-show="true"] {
 				height: calc(${({ length }) => length} * 63%);
