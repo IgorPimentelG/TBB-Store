@@ -1,0 +1,567 @@
+{
+	"data": {
+		"nodes": [
+			{
+				"name": "Rexona Men Antitranspirante Roll On Invisible 50ml",
+				"shortDescription": "Diga adeus às manchas brancas com o Rexona Invisible.",
+				"id": "-ed429aa9-e815-5d1b-966d-403fc8177fac",
+				"images": [
+					{
+						"alt": "Embalagem do desodorante Rexona Men Antitranspirante Roll On Invisible 50ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/2d63d02809567b152afc3d57b091797f3b62c05c-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "88c47f2a01531fb5e5b25963d54e433becafd55ae72157e86256bf29",
+					"name": "Roll On"
+				}
+			},
+			{
+				"name": "Rexona Álcool em Gel Sem Perfume 300ml",
+				"shortDescription": "Suas mãos protegidas a todo momento, onde quer que você esteja! Aproveite o seu dia, que a Rexona cuida dos germes.",
+				"id": "-3bef0102-683f-5004-a790-6d2db418a633",
+				"images": [
+					{
+						"alt": "Embalagem de Álcool em Gel Rexona Sem Perfume 300ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/b06f20ce0d5495bb830efc92774922499d2a44d7-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "4ddf279fad495146ed00ea00927f476210b08c2bc07bc2a88163fa1a",
+					"name": "Álcool em Gel"
+				}
+			},
+			{
+				"name": "Rexona Men Antitranspirante Roll On V8 50ml",
+				"shortDescription": "Rexona V8, pensado para os fãs de carros.",
+				"id": "-e3ba92a3-cfdd-5ffb-86f1-df547e3d96c0",
+				"images": [
+					{
+						"alt": "Embalagem de desodorante Rexona Men Antitranspirante Roll On V8 50ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/84cb5b7c83903b09b74d63ff4f30e648f1a0415c-3000x3000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "88c47f2a01531fb5e5b25963d54e433becafd55ae72157e86256bf29",
+					"name": "Roll On"
+				}
+			},
+			{
+				"name": "Rexona Women Desodorante em Aerosol Active Emotion Laton",
+				"shortDescription": "Oferece 72 horas de proteção. O antitranspirante com tecnologia MotionSense mantém você seca mesmo nas situações em que as emoções fazem você transpirar.",
+				"id": "-540056e4-7f03-597f-b4f8-61d60781e7b2",
+				"images": [
+					{
+						"alt": "Imagem de aerosol Rexona Antitranspirante Active Emotion 250ml para mulheres",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/05f4ead7505c158baed22bcfa1ddd41707c2bf04-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Sabonete Líquido Antibacteriano Aloe 220ml",
+				"shortDescription": "Elimina 99,9% das bactérias e seus ingredientes proporcionam benefícios de limpeza profunda e frescor energizante.",
+				"id": "-359261d0-46ec-5e46-adc1-21dcd5e8de7f",
+				"images": [
+					{
+						"alt": "Embalagem de reposição do Sabonete Líquido Rexona Antibacteriano Aloe 220ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/13cf0087c9cd47b72229e26aae628a1da910b0fa-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "3b6358c4e18cf03b4f2a932ab184e2b39984d85f27d519f4633af7ab",
+					"name": "Sabonete Líquido"
+				}
+			},
+			{
+				"name": "Rexona Men Antitranspirante Aerosol V8 Laton",
+				"shortDescription": "Antitranspirante em aerosol com tecnologia MotionSense, desenvolvido especialmente para os fãs de carros, proteção por 72 horas em tamanho econômico.",
+				"id": "-4217fd75-1ad8-5827-862a-b4302b4f8285",
+				"images": [
+					{
+						"alt": "Imagem de embalagem Rexona para homens Antitranspirante Aerosol V8 250ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/9a49289f8d784e2cc51079f509ff9d0cc89c1ff6-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Odorono Sabonete em Barra",
+				"shortDescription": "Novo Sabonete em Barra Odorono Neutro, formato de barra de 200 gramas. Odorono oferece desempenho para toda a família, ao preço mais conveniente. Eficiente e eficaz!",
+				"id": "-5e381062-653e-5f82-abd4-8833f98260e6",
+				"images": [
+					{
+						"alt": "Embalagem de Sabonete em Barra Rexona Odorono 200 gramas",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/ebf6aee82e2c84ba0abd983e578c6374fdd4519d-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Sabonete em Barra"
+				}
+			},
+			{
+				"name": "Rexona Sabonete Líquido Antibacteriano Fresh 250ml",
+				"shortDescription": "Elimina 99,9% das bactérias e seus ingredientes proporcionam benefícios de limpeza profunda e frescor energizante.",
+				"id": "-753bf5a1-ac97-527c-9005-0a9b334d15fd",
+				"images": [
+					{
+						"alt": "Embalagem de Sabonete Líquido Rexona Antibacteriano Fresh 250ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/8ca5ac8f0bce21f610613113af192eb3890dfad4-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "3b6358c4e18cf03b4f2a932ab184e2b39984d85f27d519f4633af7ab",
+					"name": "Sabonete Líquido"
+				}
+			},
+			{
+				"name": "Rexona Sabonete de Glicerina Frutos Vermelhos 3x90gr",
+				"shortDescription": "Novo sabonete de glicerina agora com óleos de origem natural, que deixam sua pele suave e hidratada.",
+				"id": "-f0f84934-1699-532b-b184-a9d6d4d5cc20",
+				"images": [
+					{
+						"alt": "Embalagem de pacote com 3 unidades de Sabonete de Glicerina Rexona Frutos Vermelhos",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/8244d1e414c89a683174608b5d88db393541f3b5-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Sabonete em Barra"
+				}
+			},
+			{
+				"name": "Rexona Mulher Antitranspirante Roll On Nutritive",
+				"shortDescription": "Rexona Nutritive enriquece suas axilas com nutrientes fundamentais, ajudando a melhorar a textura natural da pele.",
+				"id": "-6714c92b-b1ef-5a28-9bd0-8b6385d6d100",
+				"images": [
+					{
+						"alt": "Embalagem de desodorante Rexona Mulher Antitranspirante Roll On Nutritive 50ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/a80c98da20bfc3c50eb76875b044e4fc0ec94e3b-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "88c47f2a01531fb5e5b25963d54e433becafd55ae72157e86256bf29",
+					"name": "Roll On"
+				}
+			},
+			{
+				"name": "Rexona Sabonete Antibacteriano Fresh 90gr",
+				"shortDescription": "Elimina 99,9% das bactérias e oferece 10 vezes mais proteção antibacteriana. Com ingredientes que proporcionam benefícios de limpeza profunda e frescor energizante.",
+				"id": "-9e0b003c-b2c9-54f0-9446-796c992cfb69",
+				"images": [
+					{
+						"alt": "Embalagem de Sabonete Antibacteriano Rexona Fresh 90 gramas",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/5fa3b3a155919883315c666edd3ee3cbd161041b-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Sabonete em Barra"
+				}
+			},
+			{
+				"name": "Rexona Sabonete Antibacteriano Original 90gr",
+				"shortDescription": "Elimina 99,9% das bactérias e oferece 10 vezes mais proteção antibacteriana. Com ingredientes que proporcionam benefícios de limpeza profunda e frescor energizante.",
+				"id": "-a7a6cafb-1afc-593c-a239-60aa95cafc26",
+				"images": [
+					{
+						"alt": "Embalagem de Sabonete Antibacteriano Rexona Original 90 gramas",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/14231b4eef6b0ca5926c93376412e0afb716184a-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Sabonete em Barra"
+				}
+			},
+			{
+				"name": "Rexona Men Desodorante em Aerosol para Homens 150ml",
+				"shortDescription": "72 horas de proteção, com a marca Rexona.",
+				"id": "-fcd936e8-01d4-5598-9796-4ddf975c1932",
+				"images": [
+					{
+						"alt": "Embalagem de Desodorante em Aerosol Rexona Men para Homens 150ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/f4ad6fb82cb832c607c6941a447bc125a3b71fac-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Men Antitranspirante Clinical Sport Strength",
+				"shortDescription": "3 vezes mais proteção do que um antitranspirante comum, com o desodorante Rexona Clinical.",
+				"id": "-ef11506e-35eb-5e89-89ee-f350a9d19c57",
+				"images": [
+					{
+						"alt": "Embalagem de Antitranspirante em creme Rexona Clinical Men Sport Strength 48g",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/a2a1ca050f5419f9a7030e1079b5025553752359-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "18a8059abd42715c3b04f4f32b7b72ce58c2b06adf7ca605be54a17c",
+					"name": "Creme Soft Solid"
+				}
+			},
+			{
+				"name": "Rexona Women Desodorante em Aerosol Cotton Dry 150ml",
+				"shortDescription": "72 horas de proteção, com a marca Rexona.",
+				"id": "-4626b65e-46fb-5c7f-9f9f-fb0818aa99e4",
+				"images": [
+					{
+						"alt": "Embalagem de Desodorante em Aerosol Rexona Women Cotton Dry 150ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/dc5b28113823ef44e840ac2d45101289125c14b8-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Odorono Desodorante em Aerosol 150ml",
+				"shortDescription": "Desodorante antitranspirante Rexona Odorono em aerosol, frescor e proteção para cada movimento.",
+				"id": "-b143dd6e-6f16-5f89-b391-7bf0416561a9",
+				"images": [
+					{
+						"alt": "Imagem de aerosol Odorono Antitranspirante de 150ml Rexona",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/25e58e382b944766f4cfe5a76e56745f6576d905-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Men Desodorante em Aerosol Antibacterial",
+				"shortDescription": "Desodorante antitranspirante Rexona Men oferece 10 vezes mais proteção contra as bactérias que causam o mau odor nas axilas.",
+				"id": "-15a6b497-581b-50f4-8e9b-45013f288252",
+				"images": [
+					{
+						"alt": "Embalagem de Rexona Men Desodorante em Aerosol Antibacterial 150ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/fea100bbfaf7472aec4729c0a7cd8f444ab899ae-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Álcool em Gel Fresh 250ml",
+				"shortDescription": "Suas mãos protegidas a todo momento, onde quer que esteja! Você aproveita o seu dia enquanto a Rexona cuida dos germes.",
+				"id": "-3805d7a4-1c67-585b-8d82-97ddac9eb1ea",
+				"images": [
+					{
+						"alt": "Rexona Álcool em Gel Fresh 250ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/0bab9be78f6299e8ace43661c16a9950ec9e2042-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "4ddf279fad495146ed00ea00927f476210b08c2bc07bc2a88163fa1a",
+					"name": "Álcool em Gel"
+				}
+			},
+			{
+				"name": "Rexona Women Desodorante Roll On Invisible",
+				"shortDescription": "Diga adeus às manchas brancas com Rexona Invisible.",
+				"id": "-207d9259-279e-516e-aa46-48f1054d0a1e",
+				"images": [
+					{
+						"alt": "Embalagem de desodorante Rexona Women Roll On Invisible 50ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/4b27bbcd4dfd6b14e51d85c108ad4e4471204f5f-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "88c47f2a01531fb5e5b25963d54e433becafd55ae72157e86256bf29",
+					"name": "Roll On"
+				}
+			},
+			{
+				"name": "Rexona Sabonete Orchid 3x125gr",
+				"shortDescription": "Novo sabonete Rexona com glicerina hidratante! Revitaliza com frescor, recarregando suas energias no chuveiro ou em suas mãos para nunca parar de se mover.",
+				"id": "-c36a3fcf-599a-520a-8f36-ee6be7111744",
+				"images": [
+					{
+						"alt": "Embalagem do pack de sabonetes Rexona Orchid com 3 unidades de 125gr",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/5ce7140d26b327b9430486c703769a13f35145a9-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Sabonete em Barra"
+				}
+			},
+			{
+				"name": "Rexona Desodorante Pédico Talco Efficient 100gr",
+				"shortDescription": "Os pés são a parte do corpo que mais se movimenta e esforça. É hora de reivindicá-los, mantendo-os frescos e secos com o Efficient, a proteção Rexona para seus pés.",
+				"id": "-823c227c-1b4f-597a-943a-9bf40df78d7d",
+				"images": [
+					{
+						"alt": "Embalagem de talco Efficient Rexona Desodorante Pédico de 100gr ",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/4daa730dbf718cab076e2b2b473e3508349b620c-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "daeefa3ead07d87e55d9297ce21d7852f9eaa005295871d7416955e3",
+					"name": "Talco"
+				}
+			},
+			{
+				"name": "Rexona Women Clinical Extra Dry Antitranspirante",
+				"shortDescription": "3 vezes mais proteção do que um antitranspirante comum, com o desodorante Rexona Clinical.",
+				"id": "-28ed568b-bf37-519d-a68a-218ea4f1de2b",
+				"images": [
+					{
+						"alt": "Embalagem de Rexona Women Clinical Extra Dry Antitranspirante de 48gr",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/55b5316f4959aa7ca7112000449d61d47135cd02-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "18a8059abd42715c3b04f4f32b7b72ce58c2b06adf7ca605be54a17c",
+					"name": "Creme Soft Solid"
+				}
+			},
+			{
+				"name": "Rexona Women Desodorante em Aerosol Football Fanatica 150ml",
+				"shortDescription": "Com a nova edição limitada Rexona Fútbol Fanáticas, só o futebol sua nesta Copa Libertadores! Você não pode controlar sua paixão pelo futebol, mas pode controlar sua transpiração!",
+				"id": "-949d9a97-7da9-5e09-9561-a603d6a2d239",
+				"images": [
+					{
+						"alt": "Embalagem de Rexona Fútbol Fanatica 150ml Desodorante Aerosol",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/3d764888218edfb9990abddc5a62dd312a7a4048-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Women Desodorante em Aerosol Invisible",
+				"shortDescription": "72 horas de proteção, com a marca Rexona.",
+				"id": "-80b6f7c8-a63a-5df3-90f5-10443e50ce53",
+				"images": [
+					{
+						"alt": "Embalagem de Rexona Women Invisible Antitranspirante Aerosol de 150ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/518e321eb7dedaeca581dbc96be0cbfc5be3fdb1-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Álcool em Gel Original 250ml",
+				"shortDescription": "Suas mãos protegidas a todo momento, onde quer que você esteja! Você aproveita o seu dia enquanto o Rexona cuida dos germes.",
+				"id": "-e4cf0b64-823f-55b8-99fd-d55deaab5aba",
+				"images": [
+					{
+						"alt": "Embalagem de Rexona Original Gel Antisséptico de 250ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/48fa97b940db442e7bcad91bc798e21cde962aaa-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "4ddf279fad495146ed00ea00927f476210b08c2bc07bc2a88163fa1a",
+					"name": "Hand Sanitizer"
+				}
+			},
+			{
+				"name": "Rexona Sabonete de Glicerina Neutro 3x90gr",
+				"shortDescription": "Novo sabonete de glicerina hipoalergênico, ideal para pele sensível.",
+				"id": "-42fce82b-93e9-5ef7-b376-d68d2a409953",
+				"images": [
+					{
+						"alt": "Embalagem de Rexona Neutro Sabonete de Glicerina de 3x90gr",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/9186b3d9796623c754c4df2778fb8b662dcd2322-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Bar Soap"
+				}
+			},
+			{
+				"name": "Rexona Women Desodorante em Aerosol Active Emotion",
+				"shortDescription": "72 horas de proteção, com a marca Rexona.",
+				"id": "-61895099-bb4f-53e3-a2b2-55219cbad396",
+				"images": [
+					{
+						"alt": "Embalagem de Rexona Women Active Emotion Antitranspirante Aerosol de 150ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/6113c914ff29c371cedb6b006aadc2082c25930c-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Sabonete Sensível Fresh 3x125gr",
+				"shortDescription": "Novo sabonete Rexona com glicerina hidratante! Revitaliza com frescor, recarregando sua energia no banho ou em suas mãos para nunca parar de se mover.",
+				"id": "-f2084967-eeea-5a3a-90be-c1dd1ba2407b",
+				"images": [
+					{
+						"alt": "Embalagem de Rexona Sensível Fresh Sabonete de 3x125gr",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/97a85d451be67226ee1b403430a73b1c0edb65f7-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Bar Soap"
+				}
+			},
+			{
+				"name": "Rexona Desodorante Aerosol Clinical Women Mini",
+				"shortDescription": "3 vezes mais proteção do que um antitranspirante comum com o desodorante clinical aerosol classic para mulheres, agora em tamanho mini.",
+				"id": "-96d15f83-22cd-53fa-b6ca-fa88e54b2d4c",
+				"images": [
+					{
+						"alt": "Imagem de aerosol Rexona Desodorante Antitranspirante Clinical Women Classic 55ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/6a54132b81da200a93fbb6690eb14562646e0c90-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Desodorante Clinical Men Clean 48gr",
+				"shortDescription": "3 vezes mais proteção do que um antitranspirante comum, com o desodorante Rexona Clinical.",
+				"id": "-f4434921-bf21-5020-bf2a-91bc13b81a59",
+				"images": [
+					{
+						"alt": "Embalagem de Antitranspirante Clinical Rexona Men Clean 48gr",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/7b960554a648044a75b7dd417d804e5202ee1031-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "18a8059abd42715c3b04f4f32b7b72ce58c2b06adf7ca605be54a17c",
+					"name": "Creme Soft Solid"
+				}
+			},
+			{
+				"name": "Rexona Desodorante Antitranspirante em Aerosol Men Invisible 150ml",
+				"shortDescription": "Diga adeus às manchas brancas com o Rexona Invisible.",
+				"id": "-f04754e2-76b9-5b63-9c94-1b07c8991f32",
+				"images": [
+					{
+						"alt": "Embalagem de Antitranspirante em Aerosol Rexona Men Invisible 150ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/d261b961f11a1eaa67520dd7d4fa76c84b2042b0-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Desodorante em Aerosol Antitranspirante Women Antibacterial 150ml",
+				"shortDescription": "O antitranspirante antibacteriano da Rexona proporciona 10 vezes mais proteção contra as bactérias que causam o mau odor nas axilas.",
+				"id": "-2c1f78c7-4906-570c-b80e-68e2694a3417",
+				"images": [
+					{
+						"alt": "Embalagem de desodorante antitranspirante em aerosol Rexona Women Antibacterial",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/f96163b3e5a038571cf39c3fd70bef01d8b79319-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Sabonete de Glicerina Frutos Vermelhos 90gr",
+				"shortDescription": "Novo sabonete de glicerina agora com óleos de origem natural, deixando sua pele macia e hidratada.",
+				"id": "-76725901-3bb1-5005-ab3c-35c5870ce567",
+				"images": [
+					{
+						"alt": "Embalagem do pack de sabonetes Rexona fragrância Frutos Vermelhos de 90gr",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/f83eb7b79f1c5e96710fc11aac0dd2338052344c-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Sabonete em Barra"
+				}
+			}
+		]
+	}
+}

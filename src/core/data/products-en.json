@@ -1,0 +1,567 @@
+{
+	"data": {
+		"nodes": [
+			{
+				"name": "Rexona Men Antiperspirant Roll On Invisible 50ml",
+				"shortDescription": "Say goodbye to white marks with Rexona Invisible.",
+				"id": "-ed429aa9-e815-5d1b-966d-403fc8177fac",
+				"images": [
+					{
+						"alt": "Package of Rexona Men Antiperspirant Roll On Invisible 50ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/2d63d02809567b152afc3d57b091797f3b62c05c-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "88c47f2a01531fb5e5b25963d54e433becafd55ae72157e86256bf29",
+					"name": "Roll On"
+				}
+			},
+			{
+				"name": "Rexona Alcohol-Free Gel 300ml",
+				"shortDescription": "Your hands protected at all times, wherever you are! Enjoy your day, Rexona takes care of germs.",
+				"id": "-3bef0102-683f-5004-a790-6d2db418a633",
+				"images": [
+					{
+						"alt": "Package of Rexona Alcohol-Free Gel 300ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/b06f20ce0d5495bb830efc92774922499d2a44d7-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "4ddf279fad495146ed00ea00927f476210b08c2bc07bc2a88163fa1a",
+					"name": "Alcohol Gel"
+				}
+			},
+			{
+				"name": "Rexona Men Antiperspirant Roll On V8 50ml",
+				"shortDescription": "Rexona V8, designed for car enthusiasts.",
+				"id": "-e3ba92a3-cfdd-5ffb-86f1-df547e3d96c0",
+				"images": [
+					{
+						"alt": "Package of Rexona Men Antiperspirant Roll On V8 50ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/84cb5b7c83903b09b74d63ff4f30e648f1a0415c-3000x3000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "88c47f2a01531fb5e5b25963d54e433becafd55ae72157e86256bf29",
+					"name": "Roll On"
+				}
+			},
+			{
+				"name": "Rexona Women Antiperspirant Aerosol Active Emotion Laton",
+				"shortDescription": "Offers 72 hours of protection. The antiperspirant with MotionSense technology keeps you dry even in situations where emotions make you sweat.",
+				"id": "-540056e4-7f03-597f-b4f8-61d60781e7b2",
+				"images": [
+					{
+						"alt": "Image of Rexona Antiperspirant Active Emotion Aerosol 250ml for women",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/05f4ead7505c158baed22bcfa1ddd41707c2bf04-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Antibacterial Liquid Soap Aloe 220ml",
+				"shortDescription": "Eliminates 99.9% of bacteria, and its ingredients provide deep cleansing benefits and energizing freshness.",
+				"id": "-359261d0-46ec-5e46-adc1-21dcd5e8de7f",
+				"images": [
+					{
+						"alt": "Package of Rexona Antibacterial Liquid Soap Aloe 220ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/13cf0087c9cd47b72229e26aae628a1da910b0fa-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "3b6358c4e18cf03b4f2a932ab184e2b39984d85f27d519f4633af7ab",
+					"name": "Liquid Soap"
+				}
+			},
+			{
+				"name": "Rexona Men Antiperspirant Aerosol V8 Laton",
+				"shortDescription": "Aerosol antiperspirant with MotionSense technology, specially developed for car enthusiasts, 72-hour protection in an economical size.",
+				"id": "-4217fd75-1ad8-5827-862a-b4302b4f8285",
+				"images": [
+					{
+						"alt": "Image of Rexona Men Antiperspirant Aerosol V8 250ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/9a49289f8d784e2cc51079f509ff9d0cc89c1ff6-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Odorono Bar Soap",
+				"shortDescription": "New Odorono Neutral Bar Soap, 200-gram bar format. Odorono offers performance for the whole family, at the most convenient price. Efficient and effective!",
+				"id": "-5e381062-653e-5f82-abd4-8833f98260e6",
+				"images": [
+					{
+						"alt": "Package of Rexona Odorono Bar Soap 200 grams",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/ebf6aee82e2c84ba0abd983e578c6374fdd4519d-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Bar Soap"
+				}
+			},
+			{
+				"name": "Rexona Antibacterial Liquid Soap Fresh 250ml",
+				"shortDescription": "Eliminates 99.9% of bacteria and its ingredients provide deep cleansing benefits and energizing freshness.",
+				"id": "-753bf5a1-ac97-527c-9005-0a9b334d15fd",
+				"images": [
+					{
+						"alt": "Package of Rexona Antibacterial Liquid Soap Fresh 250ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/8ca5ac8f0bce21f610613113af192eb3890dfad4-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "3b6358c4e18cf03b4f2a932ab184e2b39984d85f27d519f4633af7ab",
+					"name": "Liquid Soap"
+				}
+			},
+			{
+				"name": "Rexona Glycerin Soap Red Fruits 3x90gr",
+				"shortDescription": "New glycerin soap now with oils of natural origin, leaving your skin smooth and hydrated.",
+				"id": "-f0f84934-1699-532b-b184-a9d6d4d5cc20",
+				"images": [
+					{
+						"alt": "Package of Rexona Glycerin Soap Red Fruits 3x90gr",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/8244d1e414c89a683174608b5d88db393541f3b5-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Bar Soap"
+				}
+			},
+			{
+				"name": "Rexona Women Antiperspirant Roll On Nutritive",
+				"shortDescription": "Rexona Nutritive enriches your underarms with essential nutrients, helping to improve the skin's natural texture.",
+				"id": "-6714c92b-b1ef-5a28-9bd0-8b6385d6d100",
+				"images": [
+					{
+						"alt": "Package of Rexona Women Antiperspirant Roll On Nutritive 50ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/a80c98da20bfc3c50eb76875b044e4fc0ec94e3b-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "88c47f2a01531fb5e5b25963d54e433becafd55ae72157e86256bf29",
+					"name": "Roll On"
+				}
+			},
+			{
+				"name": "Rexona Antibacterial Soap Fresh 90gr",
+				"shortDescription": "Eliminates 99.9% of bacteria and provides 10 times more antibacterial protection. With ingredients that offer deep cleansing benefits and energizing freshness.",
+				"id": "-9e0b003c-b2c9-54f0-9446-796c992cfb69",
+				"images": [
+					{
+						"alt": "Package of Rexona Antibacterial Soap Fresh 90 grams",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/5fa3b3a155919883315c666edd3ee3cbd161041b-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Bar Soap"
+				}
+			},
+			{
+				"name": "Rexona Antibacterial Soap Original 90gr",
+				"shortDescription": "Eliminates 99.9% of bacteria and provides 10 times more antibacterial protection. With ingredients that offer deep cleansing benefits and energizing freshness.",
+				"id": "-a7a6cafb-1afc-593c-a239-60aa95cafc26",
+				"images": [
+					{
+						"alt": "Package of Rexona Antibacterial Soap Original 90 grams",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/14231b4eef6b0ca5926c93376412e0afb716184a-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Bar Soap"
+				}
+			},
+			{
+				"name": "Rexona Men Antiperspirant Aerosol for Men 150ml",
+				"shortDescription": "72 hours of protection, with the Rexona brand.",
+				"id": "-fcd936e8-01d4-5598-9796-4ddf975c1932",
+				"images": [
+					{
+						"alt": "Package of Rexona Men Antiperspirant Aerosol for Men 150ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/f4ad6fb82cb832c607c6941a447bc125a3b71fac-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Men Antiperspirant Clinical Sport Strength",
+				"shortDescription": "3 times more protection than a regular antiperspirant, with Rexona Clinical deodorant.",
+				"id": "-ef11506e-35eb-5e89-89ee-f350a9d19c57",
+				"images": [
+					{
+						"alt": "Package of Rexona Clinical Men Sport Strength 48g",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/a2a1ca050f5419f9a7030e1079b5025553752359-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "18a8059abd42715c3b04f4f32b7b72ce58c2b06adf7ca605be54a17c",
+					"name": "Creme Soft Solid"
+				}
+			},
+			{
+				"name": "Rexona Women Antiperspirant Aerosol Cotton Dry 150ml",
+				"shortDescription": "72 hours of protection, with the Rexona brand.",
+				"id": "-4626b65e-46fb-5c7f-9f9f-fb0818aa99e4",
+				"images": [
+					{
+						"alt": "Package of Rexona Women Antiperspirant Aerosol Cotton Dry 150ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/dc5b28113823ef44e840ac2d45101289125c14b8-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Odorono Antiperspirant Aerosol 150ml",
+				"shortDescription": "Rexona Odorono antiperspirant deodorant in aerosol, freshness and protection for every move.",
+				"id": "-b143dd6e-6f16-5f89-b391-7bf0416561a9",
+				"images": [
+					{
+						"alt": "Image of Rexona Odorono Antiperspirant 150ml Aerosol",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/25e58e382b944766f4cfe5a76e56745f6576d905-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Men Antibacterial Antiperspirant Aerosol",
+				"shortDescription": "Rexona Men antiperspirant deodorant offers 10 times more protection against the bacteria that causes underarm odor.",
+				"id": "-15a6b497-581b-50f4-8e9b-45013f288252",
+				"images": [
+					{
+						"alt": "Package of Rexona Men Antibacterial Antiperspirant Aerosol 150ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/fea100bbfaf7472aec4729c0a7cd8f444ab899ae-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Gel Hand Sanitizer Fresh 250ml",
+				"shortDescription": "Your hands protected at all times, wherever you are! You enjoy your day while Rexona takes care of the germs.",
+				"id": "-3805d7a4-1c67-585b-8d82-97ddac9eb1ea",
+				"images": [
+					{
+						"alt": "Rexona Gel Hand Sanitizer Fresh 250ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/0bab9be78f6299e8ace43661c16a9950ec9e2042-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "4ddf279fad495146ed00ea00927f476210b08c2bc07bc2a88163fa1a",
+					"name": "Hand Sanitizer"
+				}
+			},
+			{
+				"name": "Rexona Women Invisible Roll On Deodorant",
+				"shortDescription": "Say goodbye to white marks with Rexona Invisible.",
+				"id": "-207d9259-279e-516e-aa46-48f1054d0a1e",
+				"images": [
+					{
+						"alt": "Package of Rexona Women Invisible Roll On Deodorant 50ml",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/4b27bbcd4dfd6b14e51d85c108ad4e4471204f5f-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "88c47f2a01531fb5e5b25963d54e433becafd55ae72157e86256bf29",
+					"name": "Roll On"
+				}
+			},
+			{
+				"name": "Rexona Orchid Bar Soap 3x125gr",
+				"shortDescription": "New Rexona soap with moisturizing glycerin! Revitalizes with freshness, recharging your energy in the shower or in your hands to never stop moving.",
+				"id": "-c36a3fcf-599a-520a-8f36-ee6be7111744",
+				"images": [
+					{
+						"alt": "Package of Rexona Orchid Bar Soap 3x125gr",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/5ce7140d26b327b9430486c703769a13f35145a9-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Bar Soap"
+				}
+			},
+			{
+				"name": "Rexona Pedic Deodorant Talc Efficient 100gr",
+				"shortDescription": "Feet are the most active and hardworking part of the body. It's time to claim them, keeping them fresh and dry with Efficient, Rexona's protection for your feet.",
+				"id": "-823c227c-1b4f-597a-943a-9bf40df78d7d",
+				"images": [
+					{
+						"alt": "Package of Rexona Pedic Deodorant Talc Efficient 100gr",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/4daa730dbf718cab076e2b2b473e3508349b620c-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "daeefa3ead07d87e55d9297ce21d7852f9eaa005295871d7416955e3",
+					"name": "Talc"
+				}
+			},
+			{
+				"name": "Rexona Women Clinical Extra Dry Antiperspirant",
+				"shortDescription": "3 times more protection than a regular antiperspirant, with Rexona Clinical deodorant.",
+				"id": "-28ed568b-bf37-519d-a68a-218ea4f1de2b",
+				"images": [
+					{
+						"alt": "Package of Rexona Women Clinical Extra Dry Antiperspirant 48gr",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/55b5316f4959aa7ca7112000449d61d47135cd02-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "18a8059abd42715c3b04f4f32b7b72ce58c2b06adf7ca605be54a17c",
+					"name": "Creme Soft Solid"
+				}
+			},
+			{
+				"name": "Rexona Women Desodorante em Aerosol Football Fanatica 150ml",
+				"shortDescription": "With the new limited edition Rexona Fútbol Fanáticas, sweat only football in this Copa Libertadores! You can't control your passion for football, but you can control your perspiration!",
+				"id": "-949d9a97-7da9-5e09-9561-a603d6a2d239",
+				"images": [
+					{
+						"alt": "Package of Rexona Fútbol Fanatica 150ml Aerosol Deodorant",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/3d764888218edfb9990abddc5a62dd312a7a4048-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Women Desodorante em Aerosol Invisible",
+				"shortDescription": "72 hours of protection, with the Rexona brand.",
+				"id": "-80b6f7c8-a63a-5df3-90f5-10443e50ce53",
+				"images": [
+					{
+						"alt": "Package of Rexona Women Invisible 150ml Aerosol Antiperspirant",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/518e321eb7dedaeca581dbc96be0cbfc5be3fdb1-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Álcool em Gel Original 250ml",
+				"shortDescription": "Your hands protected at all times, wherever you are! You enjoy your day while Rexona takes care of the germs.",
+				"id": "-e4cf0b64-823f-55b8-99fd-d55deaab5aba",
+				"images": [
+					{
+						"alt": "Package of Rexona Original 250ml Gel Hand Sanitizer",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/48fa97b940db442e7bcad91bc798e21cde962aaa-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "4ddf279fad495146ed00ea00927f476210b08c2bc07bc2a88163fa1a",
+					"name": "Hand Sanitizer"
+				}
+			},
+			{
+				"name": "Rexona Sabonete de Glicerina Neutro 3x90gr",
+				"shortDescription": "New hypoallergenic glycerin soap, ideal for sensitive skin.",
+				"id": "-42fce82b-93e9-5ef7-b376-d68d2a409953",
+				"images": [
+					{
+						"alt": "Package of Rexona Neutro 3x90gr Glycerin Bar Soap",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/9186b3d9796623c754c4df2778fb8b662dcd2322-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Bar Soap"
+				}
+			},
+			{
+				"name": "Rexona Women Desodorante em Aerosol Active Emotion",
+				"shortDescription": "72 hours of protection, with the Rexona brand.",
+				"id": "-61895099-bb4f-53e3-a2b2-55219cbad396",
+				"images": [
+					{
+						"alt": "Package of Rexona Women Active Emotion 150ml Aerosol Antiperspirant",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/6113c914ff29c371cedb6b006aadc2082c25930c-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Sabonete Sensível Fresh 3x125gr",
+				"shortDescription": "New Rexona soap with moisturizing glycerin! Revitalizes with freshness, recharging your energy in the shower or in your hands to never stop moving.",
+				"id": "-f2084967-eeea-5a3a-90be-c1dd1ba2407b",
+				"images": [
+					{
+						"alt": "Package of Rexona Sensível Fresh 3x125gr Bar Soap",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/97a85d451be67226ee1b403430a73b1c0edb65f7-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Bar Soap"
+				}
+			},
+			{
+				"name": "Rexona Desodorante Aerosol Clinical Women Mini",
+				"shortDescription": "3 times more protection than a regular antiperspirant with the classic clinical aerosol deodorant for women, now in mini size.",
+				"id": "-96d15f83-22cd-53fa-b6ca-fa88e54b2d4c",
+				"images": [
+					{
+						"alt": "Image of Rexona Clinical Women Classic 55ml Aerosol Antiperspirant",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/6a54132b81da200a93fbb6690eb14562646e0c90-5000x5000.png?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Desodorante Clinical Men Clean 48gr",
+				"shortDescription": "3 times more protection than a regular antiperspirant, with Rexona Clinical deodorant.",
+				"id": "-f4434921-bf21-5020-bf2a-91bc13b81a59",
+				"images": [
+					{
+						"alt": "Package of Rexona Men Clean 48gr Clinical Antiperspirant",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/7b960554a648044a75b7dd417d804e5202ee1031-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "18a8059abd42715c3b04f4f32b7b72ce58c2b06adf7ca605be54a17c",
+					"name": "Soft Solid Cream"
+				}
+			},
+			{
+				"name": "Rexona Desodorante Antitranspirante em Aerosol Men Invisible 150ml",
+				"shortDescription": "Say goodbye to white marks with Rexona Invisible.",
+				"id": "-f04754e2-76b9-5b63-9c94-1b07c8991f32",
+				"images": [
+					{
+						"alt": "Package of Rexona Men Invisible 150ml Aerosol Antiperspirant",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/d261b961f11a1eaa67520dd7d4fa76c84b2042b0-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Women Aerosol Antiperspirant Deodorant Antibacterial 150ml",
+				"shortDescription": "Rexona's antibacterial antiperspirant provides 10 times more protection against the bacteria that cause underarm odor.",
+				"id": "-2c1f78c7-4906-570c-b80e-68e2694a3417",
+				"images": [
+					{
+						"alt": "Package of Rexona Women Aerosol Antiperspirant Deodorant Antibacterial",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/f96163b3e5a038571cf39c3fd70bef01d8b79319-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "bbf9aaa9b8d897480f9e0ade81c087843bf18590fa053eca43e6966e",
+					"name": "Aerosol"
+				}
+			},
+			{
+				"name": "Rexona Glycerin Soap Red Fruits 90g",
+				"shortDescription": "New glycerin soap with natural oils, leaving your skin soft and moisturized.",
+				"id": "-76725901-3bb1-5005-ab3c-35c5870ce567",
+				"images": [
+					{
+						"alt": "Package of Rexona Red Fruits Fragrance Glycerin Soap 90g",
+						"asset": {
+							"url": "https://cdn.sanity.io/images/27438tds/rexona-staging-ar/f83eb7b79f1c5e96710fc11aac0dd2338052344c-5000x5000.tif?w=386&h=386&q=80&auto=format"
+						}
+					}
+				],
+				"category": {
+					"_id": "67ce1f0eb28f56ed8a004be1d1443b02c66e987066cd73f21aa14681",
+					"name": "Bar Soap"
+				}
+			}
+		]
+	}
+}
