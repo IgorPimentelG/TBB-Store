@@ -9,9 +9,7 @@ export const FilterSelector = () => {
 
 	const {
 		categories,
-		filteredProducts,
 		filterType,
-		clearFilter,
 		filterProductsByCategory,
 	} = useContext(ProductsContext);
 
@@ -27,11 +25,6 @@ export const FilterSelector = () => {
 	function applyFilter(event: ChangeEvent<HTMLInputElement>, categoryId: string) {
 		const checked = event.target.checked;
 		filterProductsByCategory(categoryId, !checked, pathname);
-	}
-
-	function handleClearFilter() {
-		clearInputs();
-		clearFilter();
 	}
 
 	function clearInputs() {
