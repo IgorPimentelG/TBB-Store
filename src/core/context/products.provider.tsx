@@ -2,6 +2,7 @@ import { DB_PRODUCTS } from '@core/data';
 import { Category } from '@core/model/category';
 import { Product } from '@core/model/product';
 import { ReactNode, useEffect, useState } from 'react';
+import { FilterType } from './@types/filter-type';
 import { ProductsContext } from './products.context';
 
 type Props = {
@@ -13,7 +14,8 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 	const [products, setProducts] = useState<Product[]>([]);
 	const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
 	const [categories, setCategories] = useState<Category[]>([]);
-	const [favorites, setFavorites] = useState<string[]>([]);
+	const [favorites, setFavorites] = useState<Product[]>([]);
+	const [filterType, setFilterType] = useState<FilterType>('NONE');
 
 	useEffect(() => {
 		getAllProducts();
@@ -25,13 +27,21 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 	}, [products]);
 
 	useEffect(() => {
+		getAllFavorites();
+	}, []);
+
+	function getAllFavorites() {
 		const favorites = { ...localStorage };
 		const favoritesIds = Object.keys(favorites);
-		setFavorites(favoritesIds);
-	}, []);
+		const produtcs = products.filter((product) => (
+			favoritesIds.includes(product.id)
+		));
+		setFavorites(produtcs);
+	}
 
 	function getAllProducts() {
 		const products = DB_PRODUCTS.data.nodes as Product[];
+		console.log("🚀 ~ file: products.provider.tsx:44 ~ getAllProducts ~ products:", products)
 		setProducts(products);
 	}
 
@@ -39,6 +49,8 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 		categoryId: string,
 		alreadyActive: boolean,
 	) {
+		setFilterType('BY_CATEGORY');
+
 		if (alreadyActive) {
 			setFilteredProducts((oldState) => oldState.filter(
 				({ category }) => category._id !== categoryId
@@ -54,8 +66,18 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 		}
 	}
 
-	function cleanFilter() {
+	function filterByName(name: string) {
+		setFilterType('BY_NAME');
+		const productsByName = products.filter(
+			(product) => product.name.toLowerCase()
+				.includes(name.toLowerCase())
+		);
+		setFilteredProducts(productsByName);
+	}
+
+	function clearFilter() {
 		setFilteredProducts([]);
+		setFilterType('NONE');
 	}
 
 	/**
@@ -84,13 +106,17 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 
 	function addFavorite(id: string) {
 		localStorage.setItem(id, id);
-		setFavorites((oldState) => [...oldState, id]);
+		const product = products.find(product => product.id === id);
+
+		if (product) {
+			setFavorites((oldState) => [...oldState, product]);
+		}
 	}
 
 	function removeFavorite(id: string) {
 		localStorage.removeItem(id);
 		setFavorites((oldState) => oldState.filter(
-			(productId) => productId != id
+			(product) => product.id != id
 		));
 	}
 
@@ -100,9 +126,11 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
 			categories,
 			favorites,
 			filteredProducts,
+			filterType,
 			addFavorite,
 			removeFavorite,
-			cleanFilter,
+			filterByName,
+			clearFilter,
 			filterProductsByCategory,
 		}}>
 			{children}

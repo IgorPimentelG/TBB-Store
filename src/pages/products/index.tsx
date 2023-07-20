@@ -8,16 +8,17 @@ import { List, Wrapper } from './styles';
 
 export const Products = () => {
 
-	const { products, filteredProducts } = useContext(ProductsContext);
+	const { products, filteredProducts, filterType } = useContext(ProductsContext);
 
 	return (
 		<Container>
 			<Wrapper>
-				{products.length === 0 ? (
-					<WarningText
-						message="Nenhum produto foi encontrado no momento"
-						icon={<BsSearch size={28} />}
-					/>
+				{products.length === 0 ||
+				 (filterType === "BY_NAME" && filteredProducts.length === 0) ? (
+						<WarningText
+							message="Nenhum produto foi encontrado"
+							icon={<BsSearch size={28} />}
+						/>
 				) : (
 					<List>
 						{filteredProducts.length !== 0 ? (

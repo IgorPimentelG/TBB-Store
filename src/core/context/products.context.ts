@@ -6,8 +6,10 @@ export const ProductsContext = createContext<IProducts>({
 	categories: [],
 	favorites: [],
 	filteredProducts: [],
+	filterType: 'NONE',
 	addFavorite: () => {},
 	removeFavorite: () => {},
-	cleanFilter: () => {},
+	clearFilter: () => {},
+	filterByName: () => {},
 	filterProductsByCategory: () => {},
 });

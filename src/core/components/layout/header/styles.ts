@@ -75,8 +75,9 @@ export const Logo = styled.div`
 
 	h1 {
 		margin-left: 20%;
-		font-size: 48px;
+		font-size: 38px;
 		letter-spacing: 2px;
+		font-family: 'Tektur';
 	}
 
 	@media (max-width: 900px) {

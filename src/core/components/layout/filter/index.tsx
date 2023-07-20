@@ -1,6 +1,6 @@
 import { InputCheckbox } from '@core/components/ui';
 import { ProductsContext } from '@core/context/products.context';
-import { ChangeEvent, useContext } from 'react';
+import { ChangeEvent, useContext, useEffect } from 'react';
 import { AiOutlineClear } from 'react-icons/ai';
 import { Title, Wrapper } from './styles';
 
@@ -9,9 +9,16 @@ export const Filter = () => {
 	const {
 		categories,
 		filteredProducts,
-		cleanFilter,
+		filterType,
+		clearFilter,
 		filterProductsByCategory,
 	} = useContext(ProductsContext);
+
+	useEffect(() => {
+		if (filterType === 'BY_NAME') {
+			clearInputs();
+		}
+	}, [filterType]);
 
 	function applyFilter(event: ChangeEvent<HTMLInputElement>, categoryId: string) {
 		const checked = event.target.checked;
@@ -19,6 +26,11 @@ export const Filter = () => {
 	}
 
 	function handleClearFilter() {
+		clearInputs();
+		clearFilter();
+	}
+
+	function clearInputs() {
 		const inputs: NodeListOf<HTMLInputElement> = document.querySelectorAll(
 			'input[type="checkbox"]'
 		);
@@ -26,14 +38,13 @@ export const Filter = () => {
 		for (const input of inputs) {
 			input.checked = false;
 		}
-		cleanFilter();
 	}
 
 	return (
 		<Wrapper>
 			<div>
 				<Title>Filtros</Title>
-				{filteredProducts.length !== 0 && (
+				{filteredProducts.length !== 0 && filterType === 'BY_CATEGORY' && (
 					<button onClick={handleClearFilter}>
 						<AiOutlineClear size={28} />
 					</button>
