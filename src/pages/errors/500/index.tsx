@@ -1,4 +1,5 @@
 import { Button } from '@core/components/ui';
+import { useTranslation } from 'react-i18next';
 import { GrConnect } from 'react-icons/gr';
 import { useNavigate } from 'react-router-dom';
 import { Description, ErrorCode, Title, Wrapper } from '../styles';
@@ -6,6 +7,7 @@ import { Description, ErrorCode, Title, Wrapper } from '../styles';
 export const UnexpectedError = () => {
 
 	const navigate = useNavigate();
+	const { t } = useTranslation();
 
 	function goHome() {
 		navigate('/');
@@ -15,9 +17,9 @@ export const UnexpectedError = () => {
 		<Wrapper>
 			<GrConnect size={128} />
 			<ErrorCode>500</ErrorCode>
-			<Title>Algo Inesperado Ocorreu</Title>
+			<Title>{t('pageUnexpectedError.title')}</Title>
 			<Description>
-				Desculpe, não foi possível carregar a página por causa de um problema interno
+				{t('pageUnexpectedError.description')}
 			</Description>
 
 			<Button
