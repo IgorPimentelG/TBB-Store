@@ -19,7 +19,7 @@ Por fim, todo o código foi padronizado utilizando ESLint e editorconfig.
 
 ## Demonstração
 
-Visualize a versão em produção: [CLIQUE AQUI](https://tbb-store-igorpimentelmsi-hotmailcom.vercel.app/products)
+Visualize a versão em produção: [clique aqui](https://tbb-store.vercel.app/)
 
 ## Rodando localmente
 
@@ -79,11 +79,11 @@ src
 │   ├───theme
 │   └───translate
 └───pages
-		├───errors
-		│   ├───404
-		│   └───500
-		├───favorites
-		└───products
+	├───errors
+	│   ├───404
+	│   └───500
+	├───favorites
+	└───products
 
 ```
 
